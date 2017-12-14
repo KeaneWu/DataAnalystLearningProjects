@@ -2,7 +2,7 @@ library(ISLR)
 library(leaps)
 library(glmnet)
 # read csv
-df = read.csv('/Users/wuzirong/Documents/UMLMSBA/Stat.Predictive/PJ2/tmdb_final.csv')
+df = read.csv('tmdb_final.csv')
 #View(df)
 dim(df)
 # Try to fit LM at first
